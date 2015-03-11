@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CashMachine
 {
-    class Bills
+    class Money
     {
-        public int Nominal { get; set; }
+        public Dictionary<Bills,int>
     }
 }
