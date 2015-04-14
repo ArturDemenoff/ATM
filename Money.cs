@@ -8,6 +8,6 @@ namespace CashMachine
 {
     class Money
     {
-        public Dictionary<Bills,int>
+        public Dictionary<Bill, int> money { get; set; }
     }
 }

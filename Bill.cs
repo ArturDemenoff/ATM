@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CashMachine
 {
-    class Bills
+    class Bill
     {
         public int Nominal { get; set; }
     }
