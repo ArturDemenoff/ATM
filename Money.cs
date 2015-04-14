@@ -9,5 +9,17 @@ namespace CashMachine
     class Money
     {
         public Dictionary<Bill, int> money { get; set; }
+
+        public int TotalSumm()
+        {
+            int total = 0;
+
+            foreach(var a in money)
+            {
+                total += (a.Key.Nominal * a.Value);
+            }
+
+            return total;
+        }
     }
 }
